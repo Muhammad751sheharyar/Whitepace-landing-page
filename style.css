@@ -1,0 +1,303 @@
+.main{
+    height: auto;
+    width: 100%;
+    /* background-color: rgb(193, 211, 227); */
+}
+.header{
+    justify-content: center;
+    align-items: center;
+display: flex;
+height: 100px;
+width: 100%;
+background-color: rgb(255, 255, 255);
+}
+.logo{
+    height: 80px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.logotext{
+    margin-right: 60px;
+    font-weight: bold;
+    align-content: center;
+    height: 80px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+.navbar{
+    justify-content: baseline;
+    margin-top: 10px;
+color: rgb(255, 255, 255);
+    margin-left: 20px;
+    height: 60px;
+    width: 40%;
+    background-color: rgb(255, 255, 255);   
+}
+ul{
+    height: 70px;
+    width: 800px;
+}
+.navbar ul li{
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+    display:inline-block ;
+}
+.loginbtn{
+    margin-left: 20px;
+    align-content: center;
+    text-align: center;
+    border-radius: 5px;
+    /* margin-left: 200px; */
+    height: 45px;
+    width: 100px;
+    background-color: rgb(255, 255, 0);
+    /* background-color:rgb(234, 255, 0) ; */
+}
+.trywrirephacebtn{
+    margin-left: 10px;
+    align-content: center;
+    text-align: center;
+    border-radius: 5px ;
+    height: 45px;
+    width: 200px;
+    background-color:rgb(0, 195, 255) ;
+}
+
+.hero{
+    background-image: url(./imges/blue-background-circle-pattern-geometric-abstract_359013-19320.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.herotext{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    height: 300px;
+    width: 38%;
+    color: white;
+    /* background-color: rgb(255, 255, 255); */
+}
+.heroheading{
+    font-size: 50px;
+}
+.heroimage{
+    height: 300px;
+    width: 35%;
+    background-color: black;
+    background-image: url(./imges/istockphoto-1165671399-1024x1024.jpg);
+    background-size: cover;
+}
+.herotextbotton{
+    align-content: center;
+    text-align: center;
+    color: black;
+    height: 40px;
+    width: 200px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+/* items */
+.items{
+    margin-top: 50px;
+    justify-content: center;
+    gap:50px ;
+    align-items: center;
+    display: flex;
+    height: 450px;
+    width: 100%;
+ /* border: 1px solid black; */
+}
+.itemtext{
+    /* margin-top: 140px; */
+    font-size: 20px;
+    height: 250px;
+    width: 35%;
+    /* border: 1px solid gray; */
+}
+.itemheading{
+    font-size: 50px;
+
+}
+.itemimage{
+    background-size: cover;
+    background-image: url(./imges/istockphoto-2149784445-1024x1024\ \(1\).jpg);
+    width: 40%;
+    height: 400px;
+    /* border: 1px solid red; */
+}
+.itemtextbotton{
+    align-content: center;
+    text-align: center;
+    height: 40px;
+    width: 160px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.works{
+    margin-top: 50px;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.workimage{
+    height: 500px;
+    width: 36%;
+    /* border: 1px solid black; */
+    /* background-image: url(./imges/people-network-illustration-vector-removebg-preview.png); */
+    background-size: cover;
+}
+.worktext{
+    font-size: 20px;
+    height: 250px;
+    width: 49%;
+    /* border: 1px solid green; */
+}
+.workheading{
+    font-size: 50px;
+}
+.workbotton{
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    height: 45px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+
+/* Extension */
+.Extension{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    gap: 50px;
+}
+.Extensiontext{
+    font-size: 20px;
+    height: 400px;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+}
+.Extensionheading{
+    font-size: 50px;
+
+}
+.Extensionbotton{
+    text-align: center;
+    align-content: center;
+    height: 50px;
+    width: 120px;
+    background-color: black;
+    color: white;
+}
+.Extensionimage{
+    background-image: url();
+    height: 400px;
+    width: 35%;
+    background-color: blue;
+}
+.Customize{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    gap: 50px;
+}
+.Customizeimage{
+    height: 400px;
+    width: 35%;
+    background-color: red;
+}
+.Customizetext{
+    height: 400px;
+    width: 35%;
+    background-color: brown;
+}
+
+
+/* planes */
+
+
+.planes{
+    font-size: 20px;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.planeheading{
+    font-weight: 600;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Cards */
+.Cards{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    gap: 30px;
+}
+.card{
+    height: 500px;
+    width: 25%;
+    background-color: white;
+}
+
+
+
+/* your work */
+.Yourwork{
+    justify-items: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+.Yourheading{
+    font-size: 50px;
+
+}
+.Yourbotton{
+    border-radius:5px;
+    align-content: center;
+    height: 45px;
+    width: 140px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+@media  screen and (max-600px)and(min-300){
+   
+    .hero{
+    flex-direction: column;
+    height: auto;
+    }
+}
