@@ -183,6 +183,7 @@ ul{
 
 /* Extension */
 .Extension{
+    margin-top: 50px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -193,8 +194,8 @@ ul{
 }
 .Extensiontext{
     font-size: 20px;
-    height: 400px;
-    width: 35%;
+    height: 250px;
+    width: 45%;
     background-color: rgb(255, 255, 255);
 }
 .Extensionheading{
@@ -204,10 +205,11 @@ ul{
 .Extensionbotton{
     text-align: center;
     align-content: center;
-    height: 50px;
-    width: 120px;
+    height: 45px;
+    width: 140px;
     background-color: black;
     color: white;
+    border-radius: 5px;
 }
 .Extensionimage{
     background-image: url();
@@ -222,17 +224,32 @@ ul{
     height: 500px;
     width: 100%;
     background-color: white;
-    gap: 50px;
+    gap: 80px;
+    font-size: 20px;
 }
 .Customizeimage{
+    background-image: url(./imges/download.jpeg);
+    background-size: cover;
     height: 400px;
     width: 35%;
     background-color: red;
 }
 .Customizetext{
     height: 400px;
-    width: 35%;
-    background-color: brown;
+    width: 34%;
+    /* background-color: brown; */
+}
+.Customizeheading{
+    font-size: 50px;
+}
+.Customizebotton{
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    height: 45px;
+    width: 140px;
+    background-color: black;
 }
 
 
@@ -258,17 +275,37 @@ ul{
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 600px;
+    height: 700px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     gap: 30px;
 }
 .card{
-    height: 500px;
-    width: 25%;
+    border: 1px solid black ;
+    border-radius: 13px;
+    align-content: center;
+    justify-items: center;
+    line-height: 35px;
+    font-size: 20px;
+    height: 600px;
+    width: 27%;
     background-color: white;
 }
-
+.cardintext{
+    height: 550px;
+    width: 300px;
+    background-color: rgb(255, 253, 253);
+}
+.cardbotton{
+    margin-top: 30px;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    height: 50px;
+    width: 160px;
+    background-color: black;
+    color: white;
+}
 
 
 /* your work */
@@ -293,6 +330,78 @@ ul{
     width: 140px;
     background-color: rgb(255, 255, 255);
     color: black;
+}
+
+
+
+
+/* data */
+.data{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.datatext{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    height: 300px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    
+}
+.dataheading{
+    font-size: 50px;
+}
+.databotton{
+    text-align: center;
+    align-content:center ;
+    height: 50px;
+    width: 140px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.dataimage{
+    height: 300px;
+    width: 35%;
+    border: 1px;
+    background-color: yellow;
+}
+
+
+
+
+
+
+/* sponcers */
+.sponcerheading{
+    margin-top: 100px;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+.sponcers{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.icon{
+    /* margin-top: 12px; */
+    height: 80px;
+    width: 7%;
+    background-color: rgb(0, 0, 0);
+    
 }
 @media  screen and (max-600px)and(min-300){
    
